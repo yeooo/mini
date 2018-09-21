@@ -1,0 +1,79 @@
+@import "/static/css/icon/font-icon.wxss";
+@import "/static/css/icon/font-awesome.wxss";
+/* 这里的样式只应用于这个自定义组件 */
+.inner {
+  color: #1d1d1d;
+}
+.top{
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+}
+.top image{
+  margin-right: 20rpx;
+  vertical-align: middle;
+  width:60rpx;
+  height:60rpx;
+  border-radius:50%;
+}
+.swiper-container{
+  position: relative;
+}
+.img-swiper{
+  width: 750rpx;
+  height: 750rpx;
+}
+.slider-sign{
+  position: absolute;
+  right: 25rpx;
+  top: 25rpx;
+  width: 60rpx;
+  height: 50rpx;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 40%;
+  font-size: 22rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.bottom-content{
+  padding: 0 20rpx;
+  padding-bottom: 10rpx;
+  font-size: 24rpx;
+}
+.blod-font{
+  margin-right: 10rpx;
+  font-weight: bold;
+}
+.time{
+  font-size: 20rpx;
+  color: #c1c1c1;
+}
+.comment-detail{
+  padding: 10rpx 0;
+  color: #c1c1c1;
+}
+.icont-view{
+  width: 100%;
+  margin: 20rpx 0;
+  padding: 0px 20rpx;
+  box-sizing: border-box; 
+}
+
+.icon-shoucang {
+  margin-right: 34rpx;
+  font-size: 43rpx;
+}
+.icon-xiaoxi{
+  display: inline-block;
+  padding-top: 2px;
+  margin-right: 34rpx;
+  font-size: 52rpx;
+}
+.icon-dingyue{
+  float: right;
+  align-self: flex-end;
+  font-size: 52rpx;
+}

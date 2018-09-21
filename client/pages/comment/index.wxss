@@ -1,0 +1,111 @@
+@import "/static/css/icon/font-icon.wxss";
+.comment{
+  font-size: 28rpx;
+  padding-bottom: 80rpx;
+}
+.author-container {
+  border-bottom: 1px solid #ececec;
+}
+.author-part ,.comment-part{
+  display: flex;
+  padding: 25rpx 40rpx 0 22rpx;
+}
+.author-part .comment-left{
+  width: 108rpx;
+}
+.author-part .comment-right{
+  width: 642rpx;
+}
+.comment-part .comment-left{
+  width: 96rpx;
+}
+.comment-right{
+  height: auto;
+}
+.comment-part .comment-right{
+  width: 624rpx;
+}
+.comment-right .comment-des{
+  word-wrap: break-word;
+  white-space:normal; 
+}
+.author-part image,.comment-part image{
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.author-part .author{
+  margin-right: 30rpx;
+}
+.comment-part .author{
+  margin-right: 20rpx;
+}
+
+.time{
+  color: #8f8f8f;
+  font-size: 24rpx;
+  font-weight: lighter;
+}
+
+.author-container .time{
+  margin: 0 0 30rpx 120rpx;
+}
+.comment-container .time{
+  margin: 0 0 30rpx 110rpx;
+}
+.likes{
+  margin: 0 35rpx;
+}
+.heart  {
+  width: 40rpx;
+}
+.heart .icon-shoucang{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24rpx;
+}
+.heart .icon-shoucang.active{
+  color: red;
+}
+.comment-submit-container{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10rpx 28rpx;
+  background-color: #fff;
+  border-top: 1rpx solid #ececec;
+}
+/* .comment-submit-container .emotions{
+  height: 100rpx;
+} */
+.comment-submit-container .submit{
+  display: flex;
+}
+.comment-submit-container .submit image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.submit-input{
+  display: flex;
+  margin-left: 15rpx;
+  width: 600rpx;
+  border-radius: 50rpx;
+  border: 1rpx solid #ececec;
+  font-size: 24rpx;
+}
+.text-input{
+  width: 480rpx;
+  height: 80rpx;
+  text-indent: 25rpx;
+}
+.submit-btn{
+  width: 100rpx;
+  vertical-align: middle;
+  color: #2e8fe2;
+  font-size: 24rpx;
+  text-align: center;
+  opacity: 0;
+}

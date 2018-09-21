@@ -1,0 +1,23 @@
+/**index.wxss**/
+.container {
+    margin-top: 27rpx;
+}
+.top-part{
+    display: flex;
+    padding-left: 28rpx;
+    padding-right: 28rpx;
+    height: 147rpx;
+    border-bottom:1rpx solid #efefef;
+}
+.top-part image{
+    width: 118rpx;
+    height: 118rpx;
+    background-color: antiquewhite;
+    margin-right: 20rpx;
+}
+.top-part textarea{
+    width: 576rpx;
+    height: 147rpx;
+    font-size: 28rpx;
+    color: #222222;
+}

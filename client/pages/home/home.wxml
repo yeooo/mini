@@ -1,0 +1,57 @@
+<!--pages/home/home.wxml-->
+<view class="home-container">
+  <!-- <block wx:for="{{foodList}}" wx:key="item.index">
+    <view class="picture-content">
+      <view class="avatar-view">
+        <image class="avatar-img" src="{{item.sendAvatarUrl}}"></image>
+        <text class="avatar-name">{{item.sendNickname}}</text>
+      </view>
+      <view wx:if="{{item.img.length == 1}}">
+        <view class="picture-view">
+          <image src="{{item.img[0]}}" class="picture-img"></image>
+        </view>
+      </view>
+      
+      <view wx:if="{{item.img.length > 1}}">
+        <view class="picture-view">
+          <swiper indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiperheight">
+            <block wx:for="{{item.img}}">
+              <swiper-item>
+                <image src="{{item}}" class="picture-img"/>
+              </swiper-item>
+            </block>
+          </swiper>
+        </view>
+      </view>
+      
+      <view class="icont-view">
+        <text class="iconfont icon-shoucang"></text>
+        <text class="iconfont icon-xiaoxi"></text>
+        <text class="iconfont icon-fenxiang"></text>
+        <text class="iconfont icon-dingyue"></text>
+      </view>
+
+      <view class="comment-view">
+        <text class="like-text">{{item.likes}}次赞</text>
+        <text class="comment-text">
+          <text class="name">{{item.sendNickname}}</text>{{item.des}}
+        </text>
+        <text class="comment-all">共{{item.comments}}条评论</text>
+
+        <text class="comment-text">
+          <text class="name">{{homeData.foodList[0].comment[0].author}}</text>{{homeData.foodList[0].comment[0].detail}}
+        </text>
+
+        <view class="mycomment">
+          <image src="{{homeData.avatarUrl}}" class="small-avatar"></image>
+          <text class="addcoment-tip">添加评论</text>
+        </view>
+        <view class="sendTime">{{item.sendtime}}</view>
+      </view>
+    </view>
+  </block> -->
+  
+  <home-img wx:for="{{foodList}}" wx:key="item.index" food-data="{{item}}" user-data="{{homeData}}"></home-img>
+
+</view>
